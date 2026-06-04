@@ -3,8 +3,8 @@ device: cuda
 output_dir: results_tgo_v1
 
 data:
-  train_dir: /path/to/imagenet100/train
-  val_dir: /path/to/imagenet100/val
+  train_dir: D:/Kaustubh/imagenet100_final/train
+  val_dir: D:/Kaustubh/imagenet100_final/val
   class_subset_file: null
   image_size: 224
   num_workers: 8

@@ -49,9 +49,9 @@ def register_vit_hooks(model: nn.Module, manager: ActivationManager) -> Activati
     def patch_hook(_, __, output):
         manager.add("Layer_00_PatchEmbed", output)
 
-    def pos_hook(_, inputs, __):
-        if inputs:
-            manager.add("Layer_00_PosEmbed", inputs[0])
+    def pos_hook(module, inputs):
+        x = inputs[0]
+        manager.add("Layer_00_PosEmbed", x)
 
     def block_maker(i):
         name = f"Layer_{i:02d}_Block{i:02d}"
