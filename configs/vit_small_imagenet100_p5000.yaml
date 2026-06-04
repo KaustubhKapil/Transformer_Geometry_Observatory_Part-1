@@ -3,13 +3,13 @@ device: cuda
 output_dir: results_tgo_v1
 
 data:
-  train_dir: D:/Kaustubh/imagenet100_final/train
-  val_dir: D:/Kaustubh/imagenet100_final/val
+  train_dir: "D:/Kaustubh/imagenet100_final/train"
+  val_dir: "D:/Kaustubh/imagenet100_final/val"
   class_subset_file: null
   image_size: 224
-  num_workers: 8
+  num_workers: 12
   pin_memory: true
-  analysis_set_size: 500
+  analysis_set_size: 1000
   trajectory_set_size: 100
   analysis_seed: 2025
   trajectory_seed: 2026
@@ -23,8 +23,8 @@ model:
 
 train:
   epochs: 100
-  batch_size: 64
-  lr: 0.0005
+  batch_size: 128
+  lr: 0.001
   min_lr: 1.0e-6
   weight_decay: 0.05
   opt: adamw
@@ -34,8 +34,8 @@ train:
   amp: true
 
 analysis:
-  pca_components: 20
-  covariance_snapshot_epochs: [1,10,20,30,40,50,60,70,80,90,100]
+  pca_components: 50
+  covariance_snapshot_epochs: [1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
   anisotropy_sample_size: 5000
   trajectory_pca_basis: final_epoch
   plot_every_epoch: true
