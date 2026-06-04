@@ -1,6 +1,6 @@
-# TDO-v1 (P5000 Optimized)
+# TGO-Part-1 (P5000 Optimized)
 
-This repository implements a streaming Transformer Geometry Observatory for ViT-Small/16 on ImageNet-100. This repository explores only the Linear geometry of the **Vision Tranformer** baseline. Here I have analyzed:
+This repository implements a streaming Transformer Geometry Observatory for ViT-Small/16 on ImageNet-100. It is one of the 8 parts of my transformer observatory. This part explores only the Linear geometry of the **Vision Tranformer** baseline. Here I have analyzed:
 - SVD
 - Eigenspectra and their decay
 - Effective Ranks
