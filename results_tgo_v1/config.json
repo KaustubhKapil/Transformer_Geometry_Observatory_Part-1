@@ -14,7 +14,7 @@
       90,
       100
     ],
-    "pca_components": 20,
+    "pca_components": 50,
     "plot_every_epoch": true,
     "trajectory_pca_basis": "final_epoch"
   },
@@ -25,10 +25,10 @@
   },
   "data": {
     "analysis_seed": 2025,
-    "analysis_set_size": 500,
+    "analysis_set_size": 1000,
     "class_subset_file": null,
     "image_size": 224,
-    "num_workers": 8,
+    "num_workers": 12,
     "pin_memory": true,
     "train_dir": "D:/Kaustubh/imagenet100_final/train",
     "trajectory_seed": 2026,
@@ -47,11 +47,11 @@
   "seed": 1337,
   "train": {
     "amp": true,
-    "batch_size": 64,
+    "batch_size": 128,
     "clip_grad": 1.0,
     "epochs": 100,
     "label_smoothing": 0.1,
-    "lr": 0.0005,
+    "lr": 0.001,
     "min_lr": 1e-06,
     "momentum": 0.9,
     "opt": "adamw",
