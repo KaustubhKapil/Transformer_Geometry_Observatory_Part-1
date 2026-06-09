@@ -59,7 +59,6 @@ Collectively, these measurements indicate that the representation manifold becom
 
 This phenomenon was consistently observed across epochs and layers, suggesting that training induces a gradual expansion of the occupied representation subspace.
 
----
 
 ### Layer-wise Evolution of Dimensional Utilization
 
@@ -71,7 +70,6 @@ The strongest effect was observed in the final CLS representation.
 
 These observations suggest that information is progressively redistributed across a larger set of representational directions as depth increases.
 
----
 
 ### Emergence of Distributed CLS Representations
 
@@ -89,7 +87,6 @@ Covariance analysis and eigenspectrum visualizations further revealed that varia
 
 This behavior may suggests that the CLS token functions as a *progressively richer global information integrator* throughout training rather than a simple low-dimensional bottleneck.
 
----
 
 ### Spectral Redistribution During Training
 
@@ -101,7 +98,6 @@ This observation is consistent with the simultaneous increase in Effective Rank,
 
 The resulting representation geometry becomes increasingly distributed and less dominated by individual principal directions.
 
----
 
 ### Interpretation
 
@@ -117,7 +113,6 @@ The current study directly supports the first mechanism through consistent spect
 
 Future installments of the Transformer Geometry Observatory (TGO) framework will investigate these hypotheses through token-level, similarity-based, and attention-based analyses.
 
----
 
 ### Main Finding
 
