@@ -87,7 +87,7 @@ Compared to intermediate transformer layers, the CLS representation exhibited:
 
 Covariance analysis and eigenspectrum visualizations further revealed that variance becomes broadly distributed across many principal directions rather than concentrating into a small number of dominant components.
 
-This behavior suggests that the CLS token functions as a progressively richer global information integrator throughout training rather than a simple low-dimensional bottleneck.
+This behavior may suggests that the CLS token functions as a *progressively richer global information integrator* throughout training rather than a simple low-dimensional bottleneck.
 
 ---
 
