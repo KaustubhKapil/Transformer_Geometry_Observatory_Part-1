@@ -41,7 +41,7 @@ python -m tgo_v1.main --config configs/vit_small_imagenet100_p5000.yaml --resume
 
 ## Notes
 
-- This is the first of 8 different analyses protocols. 
+- This is the first of 6 different analyses protocols. 
 - Analysis metrics are computed on a fixed validation subset.
 - Covariance accumulation is streaming and does not require storing all activations.
 - Trajectories are stored per epoch and projected using a shared PCA basis.
