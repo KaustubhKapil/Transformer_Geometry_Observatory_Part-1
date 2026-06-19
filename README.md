@@ -121,3 +121,22 @@ Future installments of the Transformer Geometry Observatory (TGO) framework will
 This behavior is consistently observed across multiple independent spectral and geometric metrics and is most pronounced in the final CLS representation.
 
 The results suggest that ViT training is characterized by progressive geometric expansion rather than representational collapse.
+
+---
+
+## Arxiv Preprint
+Please check my pre-print on arxiv out for further detailed discussion:
+https://arxiv.org/abs/2606.19249
+I would encourage you to please give your opinions and critiques, if you found this helpful in some of your own work, please do cite this study
+
+```
+@misc{kapil2026transformergeometryobservatorytgoi,
+      title={Transformer Geometry Observatory TGO-I: Spectral Geometry Observatory}, 
+      author={Kaustubh Kapil and Kishor P. Upla},
+      year={2026},
+      eprint={2606.19249},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.19249}, 
+}
+```
