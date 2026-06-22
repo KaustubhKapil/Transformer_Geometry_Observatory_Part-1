@@ -1,4 +1,4 @@
-# TGO-Part-1
+# TGO-I: Spectral Geometry Observatory
 
 This repository implements a streaming Transformer Geometry Observatory for ViT-Small/16 on ImageNet-100. It is one of the 6 parts of my transformer observatory. This part explores only the Linear geometry of the **Vision Tranformer** baseline. Here I have analyzed:
 - SVD
