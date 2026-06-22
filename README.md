@@ -51,13 +51,7 @@ python -m tgo_v1.main --config configs/vit_small_imagenet100_p5000.yaml --resume
 
 ### Progressive Expansion of Representation Geometry
 
-We analyzed the evolution of Vision Transformer (ViT-Small/16) representations throughout training using a suite of spectral and geometric observables, including Effective Rank, Participation Ratio, Stable Rank, Spectral Entropy, Spectral Flatness, and Spectral Anisotropy.
-
-Across all transformer layers, we observed a consistent increase in Effective Rank, Participation Ratio, Stable Rank, Spectral Entropy, and Spectral Flatness, accompanied by a decrease in Spectral Anisotropy.
-
-Collectively, these measurements indicate that the representation manifold becomes progressively less concentrated and increasingly distributed during training. Rather than collapsing into a small number of dominant directions, variance is redistributed across a larger fraction of the available feature space.
-
-This phenomenon was consistently observed across epochs and layers, suggesting that training induces a gradual expansion of the occupied representation subspace.
+We analyzed the evolution of Vision Transformer (ViT-Small/16) representations throughout training using a suite of spectral and geometric observables, including Effective Rank, Participation Ratio, Stable Rank, Spectral Entropy, Spectral Flatness, and Spectral Anisotropy. Across all transformer layers, we observed a consistent increase in Effective Rank, Participation Ratio, Stable Rank, Spectral Entropy, and Spectral Flatness, accompanied by a decrease in Spectral Anisotropy. Collectively, these measurements indicate that the representation manifold becomes progressively less concentrated and increasingly distributed during training. Rather than collapsing into a small number of dominant directions, variance is redistributed across a larger fraction of the available feature space. This phenomenon was consistently observed across epochs and layers, suggesting that training induces a gradual expansion of the occupied representation subspace.
 
 
 ### Layer-wise Evolution of Dimensional Utilization
@@ -90,13 +84,7 @@ This behavior may suggests that the CLS token functions as a *progressively rich
 
 ### Spectral Redistribution During Training
 
-Eigenspectrum and singular value analyses performed at Epochs 10, 50, and 100 demonstrated a progressive flattening of the spectrum.
-
-Early training was characterized by strong variance concentration in a small number of dominant directions. As training progressed, variance became distributed across a larger number of eigenmodes.
-
-This observation is consistent with the simultaneous increase in Effective Rank, Participation Ratio, Stable Rank, Spectral Entropy, and Spectral Flatness, together with decreasing Spectral Anisotropy.
-
-The resulting representation geometry becomes increasingly distributed and less dominated by individual principal directions.
+Eigenspectrum and singular value analyses performed at Epochs 10, 50, and 100 demonstrated a progressive flattening of the spectrum. Early training was characterized by strong variance concentration in a small number of dominant directions. As training progressed, variance became distributed across a larger number of eigenmodes. This observation is consistent with the simultaneous increase in Effective Rank, Participation Ratio, Stable Rank, Spectral Entropy, and Spectral Flatness, together with decreasing Spectral Anisotropy. The resulting representation geometry becomes increasingly distributed and less dominated by individual principal directions.
 
 
 ### Interpretation
